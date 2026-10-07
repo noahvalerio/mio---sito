@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Il mio sogno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p class="menu2"><a href="index.html">Home</a> | <a href="passioni.html">Le mie passioni</a> | <a href="sogno.html">Il mio sogno</a></p>
+  <h1>Il mio sogno</h1>
+  <div class="scheda">
+    <h2>Cosa vorrei fare da grande</h2>
+    <p>Scrivi qui il lavoro o il progetto che sogni.</p>
+    <h2>Cosa sto imparando per arrivarci</h2>
+    <p>Scrivi qui cosa stai imparando a scuola che ti aiuta.</p>
+  </div>
+</body>
+</html>
