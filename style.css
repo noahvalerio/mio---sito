@@ -58,3 +58,20 @@ h2 {
   color: #94a3b8;
   margin-top: 35px;
 }
+.scheda {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bottone {
+  display: inline-block;
+  background: darkblue;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 4px;
+}
+
+.bottone:hover {
+  background: orange;
+}
