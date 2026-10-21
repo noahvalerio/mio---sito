@@ -92,3 +92,8 @@ h2 {
 .menu a:hover {
   color: orange;
 }
+@keyframes entra {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+h1 { animation: entra 1s ease; }
