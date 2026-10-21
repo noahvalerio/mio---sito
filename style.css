@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   margin: 0;
-  background-image: url("sfondo.jpg");
+  background-image: url("img/sfondo.jpg");
 background-size: cover;
 background-attachment: fixed;
 }
