@@ -8,18 +8,17 @@ body {
   box-sizing: border-box;
   margin: 0;
   background-image: url("img/sfondo.jpg");
-background-size: cover;
-background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
 }
-
 
 h1 {
   color: #1e3a8a;
   font-size: 2.2rem;
   margin-bottom: 6px;
   letter-spacing: -0.5px;
+  animation: entra 1s ease;
 }
-
 
 .sotto {
   color: #64748b;
@@ -28,7 +27,6 @@ h1 {
   margin-bottom: 25px;
 }
 
-
 .scheda {
   background: #ffffff;
   max-width: 460px;
@@ -36,10 +34,9 @@ h1 {
   padding: 32px;
   border-radius: 16px;
   text-align: left;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.8);
 }
-
 
 h2 {
   color: #0d9488;
@@ -50,19 +47,14 @@ h2 {
   padding-bottom: 4px;
 }
 
-
 .scheda h2:first-child {
   margin-top: 0;
 }
-
 
 .piede {
   font-size: 13px;
   color: #94a3b8;
   margin-top: 35px;
-}
-.scheda {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .bottone {
@@ -73,27 +65,19 @@ h2 {
   border-radius: 8px;
   text-decoration: none;
   margin: 4px;
+  font-weight: 500;
+  transition: background 0.2s ease;
 }
 
 .bottone:hover {
   background: orange;
 }
-.menu {
-  background: darkblue;
-  padding: 10px;
-  border-radius: 10px;
+
+.menu2 {
+  margin-bottom: 20px;
 }
-.menu a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 0 12px;
-}
-.menu a:hover {
-  color: orange;
-}
+
 @keyframes entra {
   from { opacity: 0; transform: translateY(-20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-h1 { animation: entra 1s ease; }
