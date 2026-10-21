@@ -57,6 +57,10 @@ h2 {
   margin-top: 35px;
 }
 
+.menu2 {
+  color: transparent;
+}
+
 .bottone,
 .menu2 a {
   display: inline-block;
@@ -67,16 +71,13 @@ h2 {
   text-decoration: none;
   margin: 4px;
   font-weight: 500;
+  font-size: 1rem;
   transition: background 0.2s ease;
 }
 
 .bottone:hover,
 .menu2 a:hover {
   background: orange;
-}
-
-.menu2 {
-  font-size: 0;
 }
 
 @keyframes entra {
