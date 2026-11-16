@@ -128,3 +128,10 @@ border-radius: 12px;
 padding: 10px 20px;
 margin-top: 20px;
 }
+body.scuro {
+background: #1b1b2f;
+color: #ffffff;
+}
+body.scuro h1, body.scuro h2 {
+color: #ffd166;
+}
