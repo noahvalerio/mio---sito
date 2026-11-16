@@ -27,3 +27,10 @@ messaggio.textContent = "Troppo basso";
 messaggio.textContent = "Troppo alto";
 }
 });
+var frasi = ["Imparo ogni giorno", "Ogni errore insegna qualcosa",
+"Provo e Riprovo"];
+var bottone = document.getElementById("nuova");
+bottone.addEventListener("click", function () {
+var numero = Math.floor(Math.random() * frasi.length);
+document.getElementById("frase").textContent = frasi[numero];
+});
