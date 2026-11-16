@@ -9,3 +9,8 @@ if (giorni < 0) {
 giorni = 0;
 }
 document.getElementById("giorni-mancanti").textContent = giorni;
+var titolo = document.getElementById("titolo1");
+var testo = document.getElementById("testo1");
+titolo.addEventListener("click", function () {
+testo.hidden = !testo.hidden;
+});
