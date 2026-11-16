@@ -84,3 +84,24 @@ h2 {
   from { opacity: 0; transform: translateY(-20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+table {
+border-collapse: collapse;
+width: 100%;
+background: white;
+}
+th, td {
+border: 1px solid #999999;
+padding: 8px;
+text-align: left;
+}
+th {
+background: #12467a;
+color: white;
+}
+tr:nth-child(even) {
+background: #eef3f8;
+}
+img {
+max-width: 100%;
+border-radius: 12px;
+}
