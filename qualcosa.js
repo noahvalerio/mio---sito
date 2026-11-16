@@ -14,3 +14,16 @@ var testo = document.getElementById("testo1");
 titolo.addEventListener("click", function () {
 testo.hidden = !testo.hidden;
 });
+var segreto = Math.floor(Math.random() * 10) + 1;
+var bottone = document.getElementById("prova");
+bottone.addEventListener("click", function () {
+var scelto = Number(document.getElementById("numero").value);
+var messaggio = document.getElementById("messaggio");
+if (scelto === segreto) {
+messaggio.textContent = "Bravo, hai indovinato!";
+} else if (scelto < segreto) {
+messaggio.textContent = "Troppo basso";
+} else {
+messaggio.textContent = "Troppo alto";
+}
+});
